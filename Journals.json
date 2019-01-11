@@ -1,0 +1,9 @@
+[
+  {
+    "Day": "1 - 2",
+    "Contributions": "Authentication and Basic Create and Read of the Users",
+    "Description": "Added a Basic User Schema with a Login System that Uses Cookies and JWT Token's",
+    "frontEndLink": "https://labs9-business-reviews.netlify.com/",
+    "backEndLink": "Heroku"
+  }
+]

@@ -1,6 +1,7 @@
 import App, { Container } from 'next/app';
 import Head from '../components/Head';
 import Router from 'next/router';
+import Page from '../components/Page';
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -18,8 +19,9 @@ class MyApp extends App {
 
     return (
       <Container>
-        <Head />
-        <Component {...pageProps} />
+        <Page>
+          <Component {...pageProps} />
+        </Page>
       </Container>
     );
   }
