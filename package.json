@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start",
+    "start": "next start -p 8000",
     "build": "next build"
   },
   "repository": {
@@ -22,6 +22,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-styled-components": "^1.10.0",
+    "cross-env": "^5.2.0",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

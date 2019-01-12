@@ -52,11 +52,6 @@ export default class Page extends Component {
       <>
         <ThemeProvider theme={theme}>
           <StyledPage>
-            <script
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgxie-2MKM8N9ibIvYVGzuzvVSaXDonrE&libraries=places"
-              async
-              defer
-            />
             <Head />
             <GlobalStyle />
             {this.props.children}
