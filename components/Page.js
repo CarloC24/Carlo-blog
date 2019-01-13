@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Head from './Head';
+import Header from './Header';
+import LinkHeader from './LinkHeader';
 
 const theme = {
   red: '#FF0000',
@@ -48,12 +50,13 @@ const StyledPage = styled.div`
 export default class Page extends Component {
   render() {
     return (
-      // <ThemeProvider theme={theme}>
       <>
         <ThemeProvider theme={theme}>
           <StyledPage>
             <Head />
             <GlobalStyle />
+            <LinkHeader />
+            <Header />
             {this.props.children}
           </StyledPage>
         </ThemeProvider>
