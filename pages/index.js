@@ -5,33 +5,31 @@ import Link from 'next/link';
 
 const HomeDiv = styled.div`
   font-family: 'Roboto', sans-serif;
-  margin: 20px;
+  margin: 2rem;
 
   h1 {
-    font-size: 50px;
-    padding-top: 20px;
-    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'radnika_next';
+    padding-top: 2rem;
+    font-weight: 200;
   }
   p {
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.8rem;
   }
-  .underlined {
-    text-decoration: underline;
-  }
-`;
-
-const FlexDiv = styled.div`
-  display: flex;
-  justify-content: space-between;
 `;
 
 const StyledJournalEntry = styled.div`
-  box-shadow: ${props => props.theme.bs};
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 30%;
-  text-align: center;
+  margin: 2rem;
+  width: 40%;
+`;
+
+const StyledDivLinks = styled.div`
+  display: flex;
+  a {
+    padding: 1rem 2rem 1rem 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 `;
 
 class Homepage extends React.Component {
@@ -42,29 +40,21 @@ class Homepage extends React.Component {
   render() {
     return (
       <HomeDiv>
-        <div>
-          <h1>Hey Welcome to My Labs Blog</h1>
-          <p>
-            My name is Carlo Clamucha and I'm currently working on the business
-            reviews
-          </p>
-          <Link href="/weekly">
-            <p class="underlined">Weekly reviews</p>
-          </Link>
-        </div>
-        <FlexDiv>
-          {Journal.map(entry => {
-            return (
-              <StyledJournalEntry>
-                <p> Day {entry.Day}</p>
-                <p>{entry.Contributions}</p>
-                <p>{entry.Description}</p>
-                <p>{entry.frontEndLink}</p>
-                <p>{entry.backEndLink}</p>
-              </StyledJournalEntry>
-            );
-          })}
-        </FlexDiv>
+        {Journal.map(item => {
+          return (
+            <StyledJournalEntry>
+              <h1> Days {item.Day}</h1>
+              <p> I contributed on {item.Contributions}</p>
+              <p>I achieved that by {item.Description}</p>
+              <StyledDivLinks>
+                <a href={item.frontEndLink}>
+                  Frontend Link: {item.frontEndLink}
+                </a>
+                <a>Backend Link: {item.backEndLink}</a>
+              </StyledDivLinks>
+            </StyledJournalEntry>
+          );
+        })}
       </HomeDiv>
     );
   }

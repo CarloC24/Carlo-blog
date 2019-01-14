@@ -15,8 +15,8 @@
   },
   {
     "Day": "4",
-    "Contributions": "Linked my Part to the Frontend",
-    "Description": "Linked my day 3 contributions to the frontend",
+    "Contributions": "Linking my Part to the Frontend",
+    "Description": "Linking my day 3 contributions to the frontend",
     "frontEndLink": "https://labs9-business-reviews.netlify.com/",
     "backEndLink": "Heroku"
   }

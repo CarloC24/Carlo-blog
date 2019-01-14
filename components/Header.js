@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
-  border: 1px solid black;
-  height: 400px;
+  height: 100px;
   width: 100%;
   h1 {
     text-align: center;
