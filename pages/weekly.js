@@ -4,36 +4,79 @@ import weekly from '../Weekly.json';
 import Link from 'next/link';
 const HomeDiv = styled.div`
   font-family: 'Roboto', sans-serif;
-  margin: 20px;
-  h1 {
-    font-size: 50px;
-    padding-top: 20px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+
+  .table__heading {
+    font-size: 3.4rem;
   }
   p {
-    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 200;
   }
   a {
-    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 200;
   }
   table {
-    margin: 40px;
     border-collapse: collapse;
-
     tr,
     td {
       border: 1px solid #dddddd;
       text-align: left;
-      padding: 10px;
-      margin: 10px;
+      padding: 1rem;
+      margin: 1rem;
     }
   }
 `;
 
-const WeeklyDiv = styled.div`
-  border: 1px solid black;
-  border-radius: 5px;
+const TableContainer = styled.div`
   width: 40%;
-  text-align: center;
+  background-color: whitesmoke;
+`;
+
+const WeeklyDiv = styled.div`
+  display: flex;
+  flex-flow: column wrap;
+  .weekly__container {
+    width: 30%;
+  }
+  .weekly__tickets {
+    width: 100%;
+    h1 {
+      font-size: 2.4rem;
+    }
+    ul {
+      margin-left: 0px;
+      padding-inline-start: 20px;
+      li {
+        margin-left: 0px;
+        font-size: 1.8rem;
+        font-weight: 300;
+        font-family: 'Roboto';
+      }
+    }
+    a {
+      word-wrap: break-word;
+    }
+  }
+  .weekly__PRS {
+    display: flex;
+    flex-direction: column;
+  }
+  .weekly__journal {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .weekly__favoritePRS {
+    p {
+      font-size: 1.8rem;
+    }
+  }
 `;
 
 export default class Weekly extends Component {
@@ -41,7 +84,8 @@ export default class Weekly extends Component {
   render() {
     return (
       <HomeDiv>
-        <div>
+        <TableContainer>
+          <h1 className="table__heading">User Schema</h1>
           <table>
             <tbody>
               <tr>
@@ -60,40 +104,49 @@ export default class Weekly extends Component {
               </tr>
             </tbody>
           </table>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-        </div>
+        </TableContainer>
         <div>
           {weekly.map(week => {
             return (
               <WeeklyDiv>
-                <p>Week {week.week}</p>
-                <p>{week.weekly_journal}</p>
-                <div>
-                  <p>Tickets</p>
-                  {week.tickets.map(ticket => {
+                <div className="weekly__container">
+                  <h1>Week {week.week}</h1>
+                </div>
+                <div className="weekly__tickets">
+                  <h1>
+                    Tickets Pulled :{' '}
+                    {week.trello_card.map(card => {
+                      return (
+                        <div>
+                          <a href={card.card}>{card.card}</a>
+                        </div>
+                      );
+                    })}
+                  </h1>
+                  <ul>
+                    {week.tickets.map(ticket => {
+                      return <li>{ticket.ticket}</li>;
+                    })}
+                  </ul>
+                </div>
+                <div className="weekly__PRS">
+                  <h1>Github PR links</h1>
+                  {week.PRS.map(PR => {
                     return (
                       <div>
-                        <p>{ticket.ticket}</p>
+                        <a href={PR.prLink}>{PR.prLink}</a>
                       </div>
                     );
                   })}
                 </div>
-                {week.trello_card.map(card => {
-                  return (
-                    <div>
-                      <a href={card.card}>{card.card}</a>
-                    </div>
-                  );
-                })}
-                {week.PRS.map(PR => {
-                  return (
-                    <div>
-                      <a href={PR.prLink}>{PR.prLink}</a>
-                    </div>
-                  );
-                })}
+                <div className="weekly__journal">
+                  <h1>My Contributions breakdown</h1>
+                  <p>{week.weekly_journal}</p>
+                </div>
+                <div className="weekly__favoritePRS">
+                  <h1>My Favorite PR's breakdown</h1>
+                  <p>{week.favorite_pr}</p>
+                </div>
               </WeeklyDiv>
             );
           })}

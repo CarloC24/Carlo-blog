@@ -25,6 +25,7 @@
         "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/28"
       }
     ],
-    "weekly_journal": "Biggest challenge of the week is Getting used to with the git workflow. I implemented the authentication token system with JWT and Cookies. And used a php module to hash emails and make it a Universal Avatar (gravatar) and I handled Creating users in a secure way with Bcrypt. Then I hooked up my routes into the front end which I did the login form! So far everything is working out with my part and I helped fix bugs on deployment with the Procfile from heroku "
+    "weekly_journal": "Biggest challenge of the week is Getting used to with the git workflow. I implemented the authentication token system with JWT and Cookies. And used a php module to hash emails and make it a Universal Avatar (gravatar) and I handled Creating users in a secure way with Bcrypt. Then I hooked up my routes into the front end which I did the login form! So far everything is working out with my part and I helped fix bugs on deployment with the Procfile from heroku ",
+    "favorite_pr": "My favorite PR's are the 7,22,28 because I implemented our cool token system that can speed up and store users data with the use of advanced middleware principles,cookies and jwt token system"
   }
 ]
