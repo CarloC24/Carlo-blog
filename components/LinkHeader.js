@@ -23,6 +23,8 @@ export default class LinkHeader extends Component {
         <Link href="/weekly">
           <a>Weekly</a>
         </Link>
+          <a href="https://bonafind.netlify.com">Frontend</a>
+          <a href="https://bonafind.herokuapp.com">Backend</a>
       </StyledLinkHeader>
     );
   }

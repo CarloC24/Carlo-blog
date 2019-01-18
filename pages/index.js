@@ -23,15 +23,6 @@ const StyledJournalEntry = styled.div`
   width: 40%;
 `;
 
-const StyledDivLinks = styled.div`
-  display: flex;
-  a {
-    padding: 1rem 2rem 1rem 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-`;
-
 class Homepage extends React.Component {
   constructor(props) {
     super(props);
@@ -46,12 +37,6 @@ class Homepage extends React.Component {
               <h1> Days {item.Day}</h1>
               <p> I contributed on {item.Contributions}</p>
               <p>I achieved that by {item.Description}</p>
-              <StyledDivLinks>
-                <a href={item.frontEndLink}>
-                  Frontend Link: {item.frontEndLink}
-                </a>
-                <a>Backend Link: {item.backEndLink}</a>
-              </StyledDivLinks>
             </StyledJournalEntry>
           );
         })}

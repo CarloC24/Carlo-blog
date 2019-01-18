@@ -2,22 +2,16 @@
   {
     "Day": "1 - 2",
     "Contributions": "Started on User Schema",
-    "Description": "Just added the base fields needed for the user",
-    "frontEndLink": "https://labs9-business-reviews.netlify.com/",
-    "backEndLink": "Heroku"
+    "Description": "Just added the base fields needed for the user"
   },
   {
     "Day": "3",
     "Contributions": "Authentication and Basic Create and Read of the Users",
-    "Description": "Added a Basic User Schema with a Login System that Uses Cookies and JWT Token's",
-    "frontEndLink": "https://labs9-business-reviews.netlify.com/",
-    "backEndLink": "Heroku"
+    "Description": "Added a Basic User Schema with a Login System that Uses Cookies and JWT Token's"
   },
   {
     "Day": "4",
     "Contributions": "Linking my Part to the Frontend",
-    "Description": "Linking my day 3 contributions to the frontend",
-    "frontEndLink": "https://labs9-business-reviews.netlify.com/",
-    "backEndLink": "Heroku"
+    "Description": "Linking my day 3 contributions to the frontend"
   }
 ]
