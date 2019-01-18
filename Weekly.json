@@ -55,7 +55,7 @@
         "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/77"
       }
     ],
-    "weekly_journal": "I refactored the authentication which does the same thing as the one I implemented earlier I added more code which I thought was very inefficient. I added Express-session, PassportJS, Passport-Local,Express-validator to the backend which helped me achieve the same authentication system that I implemented at Day 3. I didnt want to write all that code because I know that everybody might not understand Passport does and what it gives us hence might slow down the development process. But after that I wrote Tests for Backend and I linked up everything in the Frontend Link and Backend link so everybody can get moving ",
+    "weekly_journal": "I implemented the login system on a way that it is interfacing with the frontend site and backend site! I left some alert messages when they successfully registered or logged in.I added a lot of new libraries which is Express-sessions, Connect-knex-session,Express-Validator,PassportJS,Passport-Local. And I implemented tests on the backend server.",
     "favorite_pr": "My favorite PR was the testing of the backend server because I was able to get it done quickly and I enjoyed testing the backend a lot"
   }
 ]

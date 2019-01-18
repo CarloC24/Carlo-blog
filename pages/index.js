@@ -6,6 +6,8 @@ import Link from 'next/link';
 const HomeDiv = styled.div`
   font-family: 'Roboto', sans-serif;
   margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 
   h1 {
     font-size: 2.4rem;
@@ -20,7 +22,7 @@ const HomeDiv = styled.div`
 
 const StyledJournalEntry = styled.div`
   margin: 2rem;
-  width: 40%;
+  width: 30%;
 `;
 
 class Homepage extends React.Component {

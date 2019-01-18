@@ -23,6 +23,9 @@ export default class LinkHeader extends Component {
         <Link href="/weekly">
           <a>Weekly</a>
         </Link>
+        <Link href="/user">
+          <a>User Schema</a>
+        </Link>
         <a target="_blank" href="https://bonafind.netlify.com">
           Frontend
         </a>
