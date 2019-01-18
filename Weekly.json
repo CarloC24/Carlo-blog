@@ -43,19 +43,19 @@
     ],
     "PRS": [
       {
-        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/4"
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/41"
       },
       {
-        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/7"
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/46"
       },
       {
-        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/22"
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/65"
       },
       {
-        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/28"
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/77"
       }
     ],
-    "weekly_journal": "Biggest challenge of the week is Getting used to with the git workflow. I implemented the authentication token system with JWT and Cookies. And used a php module to hash emails and make it a Universal Avatar (gravatar) and I handled Creating users in a secure way with Bcrypt. Then I hooked up my routes into the front end which I did the login form! So far everything is working out with my part and I helped fix bugs on deployment with the Procfile from heroku ",
-    "favorite_pr": "My favorite PR's are the 7,22,28 because I implemented our cool token system that can speed up and store users data with the use of advanced middleware principles,cookies and jwt token system"
+    "weekly_journal": "I refactored the authentication which does the same thing as the one I implemented earlier I added more code which I thought was very inefficient. I added Express-session, PassportJS, Passport-Local,Express-validator to the backend which helped me achieve the same authentication system that I implemented at Day 3. I didnt want to write all that code because I know that everybody might not understand Passport does and what it gives us hence might slow down the development process. But after that I wrote Tests for Backend and I linked up everything in the Frontend Link and Backend link so everybody can get moving ",
+    "favorite_pr": "My favorite PR was the testing of the backend server because I was able to get it done quickly and I enjoyed testing the backend a lot"
   }
 ]

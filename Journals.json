@@ -13,5 +13,20 @@
     "Day": "4",
     "Contributions": "Linking my Part to the Frontend",
     "Description": "Linking my day 3 contributions to the frontend"
+  },
+  {
+    "Day": "5",
+    "Contributions": "Implemented Cookie security flags",
+    "Description": "Researched on how to secure cookies"
+  },
+  {
+    "Day": "6",
+    "Contributions": "Implemented Tests for Backend",
+    "Description": "Backend tests with jest and supertest"
+  },
+  {
+    "Day": "7-8",
+    "Contributions": "Implemented PassportJS with Local Strategy",
+    "Description": "Added four more Libraries to implement PassportJS"
   }
 ]

@@ -80,7 +80,6 @@ const WeeklyDiv = styled.div`
 `;
 
 export default class Weekly extends Component {
-  componentDidMount() {}
   render() {
     return (
       <HomeDiv>
@@ -106,34 +105,35 @@ export default class Weekly extends Component {
           </table>
         </TableContainer>
         <div>
-          {weekly.map(week => {
+          {weekly.map((week, i) => {
+            console.log();
             return (
-              <WeeklyDiv>
+              <WeeklyDiv key={i}>
                 <div className="weekly__container">
                   <h1>Week {week.week}</h1>
                 </div>
                 <div className="weekly__tickets">
                   <h1>
                     Tickets Pulled :{' '}
-                    {week.trello_card.map(card => {
+                    {week.trello_card.map((card, i) => {
                       return (
-                        <div>
+                        <div key={i}>
                           <a href={card.card}>{card.card}</a>
                         </div>
                       );
                     })}
                   </h1>
                   <ul>
-                    {week.tickets.map(ticket => {
-                      return <li>{ticket.ticket}</li>;
+                    {week.tickets.map((ticket, i) => {
+                      return <li key={i}>{ticket.ticket}</li>;
                     })}
                   </ul>
                 </div>
                 <div className="weekly__PRS">
                   <h1>Github PR links</h1>
-                  {week.PRS.map(PR => {
+                  {week.PRS.map((PR, i) => {
                     return (
-                      <div>
+                      <div key={i}>
                         <a href={PR.prLink}>{PR.prLink}</a>
                       </div>
                     );

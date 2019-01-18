@@ -31,9 +31,9 @@ class Homepage extends React.Component {
   render() {
     return (
       <HomeDiv>
-        {Journal.map(item => {
+        {Journal.map((item, i) => {
           return (
-            <StyledJournalEntry>
+            <StyledJournalEntry key={i}>
               <h1> Days {item.Day}</h1>
               <p> I contributed on {item.Contributions}</p>
               <p>I achieved that by {item.Description}</p>
