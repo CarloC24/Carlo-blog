@@ -36,13 +36,16 @@ export default class LinkHeader extends Component {
           target="_blank"
           href="https://www.youtube.com/watch?v=S8zx4r_JqcY&feature=youtu.be"
         >
-          Whiteboard Week 2
+          Whiteboard Week 2 - Interviewer
         </a>
-         <a
+        <a target="_blank" href="https://www.youtube.com/watch?v=BiSTyUMsakk">
+          Whiteboard Week 3 - Interviewer
+        </a>
+        <a
           target="_blank"
-          href="https://www.youtube.com/watch?v=BiSTyUMsakk"
+          href="https://www.youtube.com/watch?v=oUZYTlUVEbM&feature=youtu.be"
         >
-          Whiteboard Week 3
+          Whiteboard Week 3 - Interviewee
         </a>
       </StyledLinkHeader>
     );
