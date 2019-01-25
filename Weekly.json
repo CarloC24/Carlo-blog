@@ -55,7 +55,37 @@
         "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/77"
       }
     ],
-    "weekly_journal": "I implemented the login system on a way that it is interfacing with the frontend site and backend site! I left some alert messages when they successfully registered or logged in.I added a lot of new libraries which is Express-sessions, Connect-knex-session,Express-Validator,PassportJS,Passport-Local. And I implemented tests on the backend server.",
-    "favorite_pr": "My favorite PR was the testing of the backend server because I was able to get it done quickly and I enjoyed testing the backend a lot"
+    "weekly_journal": "I implemented the login system on a way that it is interfacing with the frontend site and backend site! I left some alert messages when they successfully registered or logged in.I added a lot of new libraries which is Express-sessions, Connect-knex-session, Express-Validator, PassportJS, Passport-Local. And I implemented tests on the backend server.",
+    "favorite_pr": "My favorite PR was #46 where I tested the backend server's endpoints. I tested the server with Jest and Supertest module from npm. It is my favorite PR because it will help speed up the development process which will help us detect regressions later on as we scale our database."
+  },
+  {
+    "week": "3",
+    "tickets": [
+      {
+        "ticket": "User Settings Page"
+      },
+      {
+        "ticket": "Creating User Accounts"
+      }
+    ],
+    "trello_card": [
+      {
+        "card": "https://trello.com/c/fef2Dq4X/1-create-user-accounts",
+        "card": "https://trello.com/c/houjO5dV/4-user-settings-page"
+      }
+    ],
+    "PRS": [
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/87"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/111"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/122"
+      }
+    ],
+    "weekly_journal": "I implemented Updating Users Functionality with Resetting Their Password functionality it was pretty fulfilling because the team was at 90% complete due to us working hard and it was nice to know that you contributed some to help the project to reach that point",
+    "favorite_pr": "My favorite PR is PR#111 because I handled the users reset password which can get a little bit complicated but I didnt have any problem with it so I was happy with the progress that I made in that small amount of time and it was pretty satisfying that the project was easy to scale because it integrated the features in the frontend in no time"
   }
 ]

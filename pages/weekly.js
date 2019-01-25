@@ -6,6 +6,7 @@ const HomeDiv = styled.div`
   font-family: 'Roboto', sans-serif;
   margin: 2rem;
   display: flex;
+  word-spacing: 5px;
   .table__heading {
     font-size: 3.4rem;
   }
@@ -107,6 +108,82 @@ export default class Weekly extends Component {
                   <h1>My Favorite PR's breakdown</h1>
                   <p>{week.favorite_pr}</p>
                 </div>
+                {i === 1 ? (
+                  <div className="weekly__journal">
+                    <h1>
+                      What API/Services did you implement? - Labs II sprint
+                    </h1>
+                    <p>
+                      I implemented the use of gravatars which is a
+                      wordpress/php thing and is widely used across websites.
+                      And I added a minimalistic powerful authentication system
+                      with PassportJS. I added express-session,
+                      connect-knex-session, express validator, passportJS &
+                      passport - local on the backend to implement this feature.
+                      I already hooked up our frontend links to our backend link
+                      so we can show that users can sign up and make a record on
+                      our database. The reason why I chose passport JS is that
+                      it harnesses the power of express middlewares which is a
+                      very unspoken thingnpm in the node community for
+                      beginners. It is so fitting to use passportJS on a full
+                      stack application because you dont have to write any
+                      authentication code on the frontend and the most important
+                      thing in making a fullstack application is having a
+                      seperation of concerns and passport js is the perfect
+                      solution on separating the authentication part of the full
+                      stack application from everything else.
+                    </p>
+                  </div>
+                ) : null}
+                {i === 2 ? (
+                  <div className="weekly__journal">
+                    <h1>Features that are completed - Labs III sprint</h1>
+                    <ul>
+                      <li>
+                        <a href="https://bonafind.netlify.com/">
+                          First Feature
+                        </a>{' '}
+                        - Popular Reviewers
+                      </li>
+                      <li>
+                        <a href="https://bonafind.netlify.com/">
+                          Second Feature
+                        </a>{' '}
+                        - Google maps dropdown
+                      </li>
+                      <li>
+                        <a href="https://bonafind.netlify.com/login">
+                          Third Feature
+                        </a>{' '}
+                        - Login authentication
+                      </li>
+                      <li>
+                        <a href="https://bonafind.netlify.com/register">
+                          Fourth Feature
+                        </a>{' '}
+                        - Register authentication
+                      </li>{' '}
+                      <li>
+                        <a href="https://bonafind.netlify.com/updateuser">
+                          Fifth Feature
+                        </a>{' '}
+                        - Update User
+                      </li>
+                      <li>
+                        <a href="https://bonafind.netlify.com/resetpassword">
+                          Sixth Feature
+                        </a>{' '}
+                        - Reset Password
+                      </li>
+                      <li>
+                        <a href="https://bonafind.netlify.com/billing">
+                          Seventh Feature
+                        </a>{' '}
+                        - Stripe Billing Process
+                      </li>
+                    </ul>
+                  </div>
+                ) : null}
               </WeeklyDiv>
             );
           })}
