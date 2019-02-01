@@ -37,9 +37,9 @@
     ],
     "trello_card": [
       {
-        "card": "https://trello.com/c/fef2Dq4X/1-create-user-accounts",
-        "card": "https://trello.com/c/oxZCFFjg/19-testing"
-      }
+        "card": "https://trello.com/c/fef2Dq4X/1-create-user-accounts"
+      },
+      { "card": "https://trello.com/c/oxZCFFjg/19-testing" }
     ],
     "PRS": [
       {
@@ -70,9 +70,9 @@
     ],
     "trello_card": [
       {
-        "card": "https://trello.com/c/fef2Dq4X/1-create-user-accounts",
-        "card": "https://trello.com/c/houjO5dV/4-user-settings-page"
-      }
+        "card": "https://trello.com/c/fef2Dq4X/1-create-user-accounts"
+      },
+      { "card": "https://trello.com/c/houjO5dV/4-user-settings-page" }
     ],
     "PRS": [
       {
@@ -103,10 +103,10 @@
     ],
     "trello_card": [
       {
-        "card": "https://trello.com/c/oxZCFFjg/19-testing",
-        "card": "https://trello.com/c/ysbhW6yz/18-create-edit-read-review",
-        "card": "https://trello.com/c/vOISLmVs/20-general-styling"
-      }
+        "card": "https://trello.com/c/oxZCFFjg/19-testing"
+      },
+      { "card": "https://trello.com/c/ysbhW6yz/18-create-edit-read-review" },
+      { "card": "https://trello.com/c/vOISLmVs/20-general-styling" }
     ],
     "PRS": [
       {

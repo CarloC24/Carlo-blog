@@ -47,6 +47,18 @@ export default class LinkHeader extends Component {
         >
           Whiteboard Week 3 - Interviewee
         </a>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=DmMxh-QUsVE&feature=youtu.be"
+        >
+          Whiteboard Week 4 - Interviewer
+        </a>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=h-JCKYBAqJA&feature=youtu.be"
+        >
+          Whiteboard Week 4 - Interviewee
+        </a>
       </StyledLinkHeader>
     );
   }
