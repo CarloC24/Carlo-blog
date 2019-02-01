@@ -187,11 +187,11 @@ export default class Weekly extends Component {
                     <p>
                       My team was always in a video call for a minimum of 3
                       hours straight and it helped us add more functionality on
-                      the project faster than expected overall it was a very
+                      the project faster than expected. Overall it was a very
                       good experience from all of us because working together
                       made us more productive than we can even think of because
                       everybody is on the same page and everybody helps one
-                      another
+                      another.
                     </p>
                   </div>
                 ) : null}
