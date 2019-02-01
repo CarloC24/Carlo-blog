@@ -87,5 +87,45 @@
     ],
     "weekly_journal": "I implemented Updating Users Functionality with Resetting Their Password functionality it was pretty fulfilling because the team was at 90% complete due to us working hard and it was nice to know that you contributed some to help the project to reach that point.",
     "favorite_pr": "My favorite PR is PR#111 because I handled the users reset password which can get a little bit complicated but I didnt have any problem with it so I was happy with the progress that I made in that small amount of time and it was pretty satisfying that the project was easy to scale because it integrated the features in the frontend in no time"
+  },
+  {
+    "week": "4",
+    "tickets": [
+      {
+        "ticket": "React Testing"
+      },
+      {
+        "ticket": "Create/Edit/Read Review"
+      },
+      {
+        "ticket": "General Styling"
+      }
+    ],
+    "trello_card": [
+      {
+        "card": "https://trello.com/c/oxZCFFjg/19-testing",
+        "card": "https://trello.com/c/ysbhW6yz/18-create-edit-read-review",
+        "card": "https://trello.com/c/vOISLmVs/20-general-styling"
+      }
+    ],
+    "PRS": [
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/136"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/146"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/148"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/164"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/166"
+      }
+    ],
+    "weekly_journal": "I did help to compose our UI/UX sheet by suggesting to use only two fonts all through out the application and I also suggested to use background-images that are not contrasting for every features the we have so users can have a better experience telling what are the features of the web app. Overall it was a good experience because we all looked at professional websites and compared it to ours and see what is missing.  ",
+    "favorite_pr": "My favorite PR is PR#166 because I added subscription date stamps that will check if they can only a review on the web app if the subscription they bought from us is past from the subscription date they purchased from the billing page that I fixed the logic. "
   }
 ]

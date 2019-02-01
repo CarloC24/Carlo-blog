@@ -19,6 +19,10 @@ const HomeDiv = styled.div`
     font-weight: 200;
   }
 `;
+const ButtonDiv = styled.div`
+  width: 20%;
+  background-color: black;
+`;
 
 const WeeklyDiv = styled.div`
   width: 80%;
@@ -63,9 +67,13 @@ const WeeklyDiv = styled.div`
 `;
 
 export default class Weekly extends Component {
+  state = {
+    cI: 0
+  };
   render() {
     return (
       <HomeDiv>
+        <ButtonDiv />
         <div>
           {weekly.map((week, i) => {
             return (
@@ -192,6 +200,23 @@ export default class Weekly extends Component {
                       made us more productive than we can even think of because
                       everybody is on the same page and everybody helps one
                       another.
+                    </p>
+                  </div>
+                ) : null}
+                {i === 3 ? (
+                  <div className="weekly__journal">
+                    <h1>Presentation - Labs IV sprint</h1>
+                    <p>
+                      As a team we decided to go and look at professional
+                      websites and differenciate it from our website and we saw
+                      a lot our UI/UX is missing. Better fonts all through out
+                      the application. More intuitive animations that will
+                      follow the users cursor as they are navigating through the
+                      web app that we made. Better backgrounds that will show
+                      users different functionality our web app. And we
+                      implemented every single one of those features to our web
+                      app and now it looks a whole lot better than it used to
+                      look like!
                     </p>
                   </div>
                 ) : null}
