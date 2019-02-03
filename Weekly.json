@@ -25,7 +25,7 @@
         "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/28"
       }
     ],
-    "weekly_journal": "Biggest challenge of the week is Getting used to with the git workflow. I implemented the authentication token system with JWT and Cookies. And used a php module to hash emails and make it a Universal Avatar (gravatar) and I handled Creating users in a secure way with Bcrypt. Then I hooked up my routes into the front end which I did the login form! So far everything is working out with my part and I helped fix bugs on deployment with the Procfile from heroku ",
+    "weekly_journal": "Biggest challenge of the week is Getting used to with the git workflow. I implemented the authentication token system with JWT and Cookies. And used a php module to hash emails and make it a Universal Avatar (gravatar) and I handled Creating users in a secure way with Bcrypt. Then I hooked up my routes into the front end which I did the login form! So far everything is working out with my part and I helped fix bugs on deployment with the Procfile from heroku.",
     "favorite_pr": "My favorite PR's are the 7,22,28 because I implemented our cool token system that can speed up and store users data with the use of advanced middleware principles,cookies and jwt token system"
   },
   {
@@ -126,6 +126,6 @@
       }
     ],
     "weekly_journal": "I did help to compose our UI/UX sheet by suggesting to use only two fonts all through out the application and I also suggested to use background-images that are not contrasting for every features the we have so users can have a better experience telling what are the features of the web app. Overall it was a good experience because we all looked at professional websites and compared it to ours and see what is missing.  ",
-    "favorite_pr": "My favorite PR is PR#166 because I added subscription date stamps that will check if they can only a review on the web app if the subscription they bought from us is past from the subscription date they purchased from the billing page that I fixed the logic. "
+    "favorite_pr": "My favorite PR's is PR#136 and PR#174. I liked PR#174 because of the logic that I added on the subscription part of the application! I was particularly happy about my contribution about that because it made me realize how I fixed up our backend on how everything just mashes together as a whole to really help our frontend to display data efficiently and concluding that it felt like the backend was really a big part on how user's can have a better experience on using our Web App. And PR#136 because I was able to add a bunch of tests on our frontend to help scale and detect regressions along the way of developement! I added 25 Component Tests so far in the application. "
   }
 ]

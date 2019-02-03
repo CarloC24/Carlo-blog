@@ -34,8 +34,8 @@ const ButtonDiv = styled.div`
 `;
 
 const WeeklyDiv = styled.div`
-  width: 80%;
-  max-width: 80%;
+  width: 60%;
+  max-width: 60%;
   margin: 0 auto;
   .weekly__container {
     width: 30%;
@@ -244,7 +244,10 @@ export default class Weekly extends Component {
                         show users different functionality our web app. And we
                         implemented every single one of those features to our
                         web app and now it looks a whole lot better than it used
-                        to look like!
+                        to look like!. And on the Backend Side the application
+                        was already robust to help smooth everything in terms of
+                        displaying robust data contributing to better User
+                        Experience.
                       </p>
                     </div>
                   ) : null}
