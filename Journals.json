@@ -63,5 +63,25 @@
     "Day": "16",
     "Contributions": "Sending Email with Subscription",
     "Description": "Added Subscription Tags for Users when they pay and Email Support!"
+  },
+  {
+    "Day": "17",
+    "Contributions": "Sending Email with Subscription",
+    "Description": "Implemented the emails to go with the frontend when prompted to pay for subscription."
+  },
+  {
+    "Day": "18",
+    "Contributions": "Added Review Lockdown Permissions",
+    "Description": "Added Review Lockdown Permissions on having 3 free reviews till you have to buy A subscription from us."
+  },
+  {
+    "Day": "19",
+    "Contributions": "Added Unique Sessions",
+    "Description": "Added unique sessions id's with uuidv4 so users cannot share sessions together"
+  },
+  {
+    "Day": "20",
+    "Contributions": "Refactored the reset password logic",
+    "Description": "Refactored the reset password logic to the frontend and backend"
   }
 ]
