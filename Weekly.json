@@ -127,5 +127,44 @@
     ],
     "weekly_journal": "I did help to compose our UI/UX sheet by suggesting to use only two fonts all through out the application and I also suggested to use background-images that are not contrasting for every features the we have so users can have a better experience telling what are the features of the web app. Overall it was a good experience because we all looked at professional websites and compared it to ours and see what is missing.  ",
     "favorite_pr": "My favorite PR's is PR#136 and PR#174. I liked PR#174 because of the logic that I added on the subscription part of the application! I was particularly happy about my contribution about that because it made me realize how I fixed up our backend on how everything just mashes together as a whole to really help our frontend to display data efficiently and concluding that it felt like the backend was really a big part on how user's can have a better experience on using our Web App. And PR#136 because I was able to add a bunch of tests on our frontend to help scale and detect regressions along the way of developement! I added 25 Component Tests so far in the application. "
+  },
+  {
+    "week": "5",
+    "tickets": [
+      {
+        "ticket": "Review List"
+      },
+      {
+        "ticket": "Navigation"
+      }
+    ],
+    "trello_card": [
+      {
+        "card": "https://trello.com/c/qI7kl4bp/17-review-list"
+      },
+      { "card": "https://trello.com/c/UdIO4VpX/5-navigation" }
+    ],
+    "PRS": [
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/203"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/204"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/209"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/215"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/223"
+      },
+      {
+        "prLink": "https://github.com/Lambda-School-Labs/labs9-business-reviews/pull/242"
+      }
+    ],
+    "weekly_journal": "I did pickup breadcrumbs on the Search Bar. If there is no input on the search bar then it wont direct them anywhere, I designed the 3 free reviews functionality on the server side to make sure that free users should only recieve 3 free reviews after being prompted to pay for a monthly or yearly subscription for their accounts to continue reviewing the businesses they come across, After they make a payment we have sendgrid that will send a email to them and thank them for using our service!, and lastly  I built out a feature that allows users to not have the same sessions everytime because when you access our site somebody is going to be logged in by default and that is bad! So I added the field genid that will return function that returns a unique string or a UUIDv4",
+    "favorite_pr": "My favorite PR's are #242, #215, #209, #204. #209  & #204 are almost the same because they are express middlewares that do checks server side if you have a subscripion or not. And it will give you 3 free reviews by default till you gotta prompt for a subscription! #215 is a continuation of the express-session middleware where I assigned unique Id's on each session to ensure that users are not sharing the same sessions everytime they use our sites which is a big key factor on websites nowadays, I made a function on the genid field that will use the dependency uuidv4 to generate a string of random characters and assign it as the id of the session so users can have seperate experience with each other. On #242 I refactored the logic of reset password component. I refactored it to be not setting a random token but rather a component that changes the password for the user logged in the application!"
   }
 ]
