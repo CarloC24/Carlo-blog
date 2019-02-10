@@ -99,6 +99,9 @@ export default class Weekly extends Component {
           <button value="3" onClick={this.handleClick}>
             Fourth week
           </button>
+          <button value="4" onClick={this.handleClick}>
+            Fifth week
+          </button>
         </ButtonDiv>
         <div>
           {weekly.map((week, i) => {
@@ -248,6 +251,35 @@ export default class Weekly extends Component {
                         was already robust to help smooth everything in terms of
                         displaying robust data contributing to better User
                         Experience.
+                      </p>
+                    </div>
+                  ) : null}
+                  {i === 4 ? (
+                    <div className="weekly__journal">
+                      <h1>Polish - Labs V sprint</h1>
+                      <p>
+                        My experience with working with the team is a good
+                        experience. Because I learned how to communicate the
+                        features that i added to the application. And most of my
+                        team never worked with stripe googlemaps api. Or have
+                        done anything advanced with middlewares or
+                        authentication. Since I've had the most experience on
+                        building full stack application. I thought most of my
+                        peers on how to handle functionality and work
+                        efficiently and what I mean by that is not adding a lot
+                        of bloated code on my part of code. Overall it was a
+                        very good experience because looking back at what I did
+                        I wrote clean code and I applied some advanced
+                        production coding practices that ive been hearing from
+                        more experienced engineers. Lazy loading, Coding
+                        Splitting, Relying on documentation and different
+                        depencies to do different stuff on our application. It
+                        helped me create a seperation of concern on
+                        Authentication, Google Maps, Billing with Stripe and
+                        Subscription, Relationships of different Tables on Each
+                        other, Automatically adding profile pictures. Overall
+                        I'm grateful to have a opportunity to show off my skills
+                        on a very professional/productional manner.
                       </p>
                     </div>
                   ) : null}
